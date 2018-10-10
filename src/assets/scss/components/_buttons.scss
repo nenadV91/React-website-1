@@ -1,0 +1,26 @@
+.btn {
+  border-radius: 100px;
+  padding: .575rem 1.75rem;
+  transition: all 0.2s ease-in;
+
+  &-white {
+    background: white;
+    border: 1px solid white;
+
+    &:hover {
+      background: transparent;
+      color: white;
+    }
+
+    &.transparent {
+      background: transparent;
+      border: 1px solid white;
+      color: white;
+
+      &:hover {
+        background: white;
+        color: $text-dark;
+      }
+    }
+  }
+}

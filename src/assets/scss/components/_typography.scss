@@ -1,0 +1,91 @@
+.text-color {
+  color: $main-color;
+}
+
+.text-light {
+  color: $text-white;
+}
+
+.text-dark {
+  color: $text-dark;
+}
+
+.weight-light {
+  font-weight: $weight-light;
+}
+
+.weight-bold {
+  font-weight: $weight-bold;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+    color: default;
+  }
+}
+
+h5 {
+  font-weight: $weight-regular;
+}
+
+h4 {
+  font-weight: $weight-regular;
+  font-size: 1.25rem;
+  color: $text-dark;
+}
+
+blockquote {
+  font-size: 1.35rem;
+  font-weight: $weight-light;
+  color: $text-regular;
+  margin-bottom: 35px;
+
+  @media(max-width: 992px) {
+    font-size: 1.2rem;
+  }
+
+  @media(max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+.section-title {
+  font-family: $font-alt;
+  font-weight: $weight-light;
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+
+  @media(max-width: 768px) {
+    margin-bottom: 30px;
+    font-size: 1.85rem;
+  }
+}
+
+.display-1 {
+  font-family: $font-alt;
+  font-weight: $weight-ultra-thin;
+  font-size: 3.6rem;
+
+  @media(max-width: 992px) {
+    font-size: 3rem;
+  }
+ 
+  @media(max-width: 768px) {
+    font-size: 2.1rem;
+  }
+}
+
+.display-2 {
+  font-family: $font-alt;
+  font-weight: $weight-ultra-thin;
+  font-size: 2.4rem;
+
+  @media(max-width: 992px) {
+    font-size: 1.8rem;
+  }
+ 
+  @media(max-width: 768px) {
+    font-size: 1.6rem;
+  }
+}

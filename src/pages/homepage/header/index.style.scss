@@ -1,0 +1,24 @@
+.header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center right;
+
+  .bg {
+    background-image: linear-gradient(to right bottom, #5533ff, #006aff, #008cff, #00a8ff, #0fc0ff);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 95%;
+    transform: skewY(-7deg);
+    transform-origin: 0;
+    z-index: -1;
+  }
+}

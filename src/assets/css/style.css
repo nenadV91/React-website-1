@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #6E7076;
+  line-height: 1.7;
+  font-size: 0.95rem; }
+
+p {
+  color: #6E7076; }
+
+section {
+  padding: 90px 0; }
+  @media (max-width: 768px) {
+    section {
+      padding: 60px 0; } }
+
+.text-color {
+  color: #00a0ff; }
+
+.text-light {
+  color: #ffffff; }
+
+.text-dark {
+  color: #313131; }
+
+.weight-light {
+  font-weight: 300; }
+
+.weight-bold {
+  font-weight: 600; }
+
+a:hover {
+  text-decoration: none;
+  color: default; }
+
+h5 {
+  font-weight: 400; }
+
+h4 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #313131; }
+
+blockquote {
+  font-size: 1.35rem;
+  font-weight: 300;
+  color: #6E7076;
+  margin-bottom: 35px; }
+  @media (max-width: 992px) {
+    blockquote {
+      font-size: 1.2rem; } }
+  @media (max-width: 768px) {
+    blockquote {
+      font-size: 1rem; } }
+
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  margin-bottom: 50px; }
+  @media (max-width: 768px) {
+    .section-title {
+      margin-bottom: 30px;
+      font-size: 1.85rem; } }
+
+.display-1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 3.6rem; }
+  @media (max-width: 992px) {
+    .display-1 {
+      font-size: 3rem; } }
+  @media (max-width: 768px) {
+    .display-1 {
+      font-size: 2.1rem; } }
+
+.display-2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 2.4rem; }
+  @media (max-width: 992px) {
+    .display-2 {
+      font-size: 1.8rem; } }
+  @media (max-width: 768px) {
+    .display-2 {
+      font-size: 1.6rem; } }
+
+.btn {
+  border-radius: 100px;
+  padding: .575rem 1.75rem;
+  transition: all 0.2s ease-in; }
+  .btn-white {
+    background: white;
+    border: 1px solid white; }
+    .btn-white:hover {
+      background: transparent;
+      color: white; }
+    .btn-white.transparent {
+      background: transparent;
+      border: 1px solid white;
+      color: white; }
+      .btn-white.transparent:hover {
+        background: white;
+        color: #313131; }

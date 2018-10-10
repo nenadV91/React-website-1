@@ -1,0 +1,19 @@
+body {
+  font-family: $font-main;
+  font-weight: $weight-light;
+  color: $text-regular;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+p {
+  color: $text-regular;
+}
+
+section {
+  padding: 90px 0;
+
+  @media(max-width: 768px) {
+    padding: 60px 0;
+  }
+}
