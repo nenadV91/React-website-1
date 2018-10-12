@@ -1,0 +1,31 @@
+.form-control {
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color: $text-light;
+      font-size: .8rem;
+  }
+  &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+     color: $text-light;
+     font-size: .8rem;
+     opacity:  1;
+  }
+  &::-moz-placeholder { /* Mozilla Firefox 19+ */
+     color: $text-light;
+     font-size: .8rem;
+     opacity:  1;
+  }
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color: $text-light;
+     font-size: .8rem;
+  }
+  &::-ms-input-placeholder { /* Microsoft Edge */
+     color: $text-light;
+     font-size: .8rem;
+  }
+
+  &::placeholder { /* Most modern browsers support this now. */
+     color: $text-light;
+     font-size: .8rem;
+  }
+}

@@ -3,6 +3,11 @@
   padding: .575rem 1.75rem;
   transition: all 0.2s ease-in;
 
+  &-color {
+    background: $color-gradient;
+    color: white;
+  }
+
   &-white {
     background: white;
     border: 1px solid white;

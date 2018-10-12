@@ -42,6 +42,7 @@ class index extends Component {
               <blockquote className="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni deserunt iste placeat suscipit itaque molestiae natus accusantium, optio qui necessitatibus, eaque distinctio odio adipisci autem quaerat blanditiis. Corporis pariatur, recusandae.</blockquote>
 
               <CodeMirror 
+                className="code-mirror"
                 ref="editor" 
                 value={this.state.code} 
                 onChange={this.updateCode} 

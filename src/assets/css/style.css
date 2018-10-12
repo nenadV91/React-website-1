@@ -11,7 +11,7 @@ p {
   color: #6E7076; }
 
 section {
-  padding: 90px 0; }
+  padding: 100px 0; }
   @media (max-width: 768px) {
     section {
       padding: 60px 0; } }
@@ -87,10 +87,24 @@ blockquote {
     .display-2 {
       font-size: 1.6rem; } }
 
+.display-3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 1.95rem; }
+  @media (max-width: 992px) {
+    .display-3 {
+      font-size: 1.5rem; } }
+  @media (max-width: 768px) {
+    .display-3 {
+      font-size: 1.3rem; } }
+
 .btn {
   border-radius: 100px;
   padding: .575rem 1.75rem;
   transition: all 0.2s ease-in; }
+  .btn-color {
+    background: linear-gradient(45deg, #c644fc 0%, #4f4dce 82%, #4c4abd 100%);
+    color: white; }
   .btn-white {
     background: white;
     border: 1px solid white; }
@@ -104,3 +118,33 @@ blockquote {
       .btn-white.transparent:hover {
         background: white;
         color: #313131; }
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.075); }
+  .form-control::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #a8a8a8;
+    font-size: .8rem; }
+  .form-control:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #a8a8a8;
+    font-size: .8rem;
+    opacity: 1; }
+  .form-control::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #a8a8a8;
+    font-size: .8rem;
+    opacity: 1; }
+  .form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #a8a8a8;
+    font-size: .8rem; }
+  .form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #a8a8a8;
+    font-size: .8rem; }
+  .form-control::placeholder {
+    /* Most modern browsers support this now. */
+    color: #a8a8a8;
+    font-size: .8rem; }

@@ -1,3 +1,5 @@
+@import 'assets/scss/utils/_variables.scss';
+
 .header {
   min-height: 100vh;
   display: flex;
@@ -9,7 +11,7 @@
   background-position: center right;
 
   .bg {
-    background-image: linear-gradient(to right bottom, #5533ff, #006aff, #008cff, #00a8ff, #0fc0ff);
+    background-image: $color-gradient;
     position: absolute;
     top: 0;
     left: 0;

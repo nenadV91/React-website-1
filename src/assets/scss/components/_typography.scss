@@ -89,3 +89,17 @@ blockquote {
     font-size: 1.6rem;
   }
 }
+
+.display-3 {
+  font-family: $font-alt;
+  font-weight: $weight-thin;
+  font-size: 1.95rem;
+
+  @media(max-width: 992px) {
+    font-size: 1.5rem;
+  }
+ 
+  @media(max-width: 768px) {
+    font-size: 1.3rem;
+  }
+}
