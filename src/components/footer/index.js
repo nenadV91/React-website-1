@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './index.style.scss';
+
 import InfoItem from './InfoItem';
 import Form from './Form';
 import data from './data';
@@ -8,7 +8,7 @@ import {
   Container, Row, Col
 } from 'reactstrap';
 
-class index extends Component {
+class Footer extends Component {
   render() {
     return (
       <footer>
@@ -17,7 +17,10 @@ class index extends Component {
             <Col className="mb-4" sm={6}>
               <h1 className="display-1">Ready to <br className="d-none d-sm-block"/>start today?</h1>
               <div className="info">
-                {data.map(item => <InfoItem data={item} key={item.id} />)}
+                {data.map(item => 
+                  <InfoItem 
+                  data={item} 
+                  key={item.id} />)}
               </div>
             </Col>
 
@@ -32,4 +35,4 @@ class index extends Component {
   }
 }
 
-export default index
+export default Footer

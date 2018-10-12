@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 
-class index extends Component {
+class SectionTitle extends Component {
   render() {
     let {
       title
@@ -17,4 +17,4 @@ class index extends Component {
   }
 }
 
-export default index
+export default SectionTitle

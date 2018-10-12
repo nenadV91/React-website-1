@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import './index.style.scss';
-
 import {
   Collapse,
   Navbar,
@@ -62,20 +60,20 @@ class MyNavbar extends Component {
       <div>
         <Navbar className={classes} fixed={`top`} dark expand="md">
           <Container>
-            <NavbarBrand href="/">My App</NavbarBrand>
+            <NavbarBrand href="#">My App</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="/components/">Link</NavLink>
+                  <NavLink href="#">Link</NavLink>
                 </NavItem>
 
                 <NavItem>
-                  <NavLink href="/components/">Link</NavLink>
+                  <NavLink href="#">Link</NavLink>
                 </NavItem>
                 
                 <NavItem>
-                  <NavLink href="/components/">Link</NavLink>
+                  <NavLink href="#">Link</NavLink>
                 </NavItem>
                 
                 <UncontrolledDropdown nav inNavbar>

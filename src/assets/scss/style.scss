@@ -1,8 +1,17 @@
 @import 'utils/variables';
 
-@import 'base';
 
+@import 'components/base';
 @import 'components/typography';
 @import 'components/buttons';
 @import 'components/inputs';
+@import 'components/navbar';
+@import 'components/service_item';
+@import 'components/footer';
+
+
+@import 'pages/header';
+@import 'pages/about';
+@import 'pages/clients';
+
 

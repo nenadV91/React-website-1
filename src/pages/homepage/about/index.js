@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
 import 'codemirror/mode/javascript/javascript';
-import './index.style.scss';
 
 import SectionTitle from 'components/section_title';
 import {Controlled as CodeMirror} from 'react-codemirror2'
@@ -13,7 +12,7 @@ import {
   Container, Row, Col
 } from 'reactstrap'
 
-class index extends Component {
+class About extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -56,4 +55,4 @@ class index extends Component {
   }
 }
 
-export default index
+export default About

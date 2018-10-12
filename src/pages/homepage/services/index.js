@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './index.style.scss';
 import data from './data.js';
 import Service from 'components/service_item';
 import SectionTitle from 'components/section_title';
@@ -9,7 +8,7 @@ import {
   Row
 } from 'reactstrap';
 
-class index extends Component {
+class Services extends Component {
   render() {
     return (
       <section id="services">
@@ -28,4 +27,4 @@ class index extends Component {
   }
 }
 
-export default index
+export default Services

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './index.style.scss';
 
 import {
   Container,
@@ -7,7 +6,7 @@ import {
   Col
 } from 'reactstrap';
 
-class index extends Component {
+class ServiceItem extends Component {
   render() {
     let {
       icon,
@@ -27,4 +26,4 @@ class index extends Component {
   }
 }
 
-export default index
+export default ServiceItem
